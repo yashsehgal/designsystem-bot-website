@@ -1,0 +1,133 @@
+/// linking fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+  background-color: #5200BB;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.header {
+  // background-color: #4a00aa;
+  overflow: hidden;
+  padding: 3em;
+}
+
+.content-left {
+  float: left;
+}
+
+.content-right {
+  float: right;
+}
+
+.header-option {
+  color: white;
+  background: none;
+  text-decoration: none;
+  font-family: 'Montserrat', monospace;
+  font-weight: bold;
+  margin-left: 30px;
+  width: 10%;
+  height: auto;
+  text-align: center;
+  padding: 1em;
+  border-radius: 28px;
+  transition: 0.25s ease-in-out;
+}
+
+.header-option:hover {
+  background-color: black;
+}
+
+.header-option02 {
+  color: white;
+  background: none;
+  text-decoration: none;
+  font-family: 'Montserrat', monospace;
+  font-weight: bold;
+  margin-left: 30px;
+  width: 10%;
+  height: auto;
+  text-align: center;
+  padding: 1em;
+  border-radius: 28px;
+  transition: 0.25s ease-in-out;
+}
+
+.header-option02:hover {
+  background-color: #5200BB;
+}
+
+.content {
+  margin-left: 6em;
+}
+
+.logo-text {
+  color: white;
+  font-family: 'Montserrat', monospace;
+  // font-weight: normal;
+}
+
+.title-heading {
+  color: white;
+  font-family: 'Montserrat', monospace;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bolder;
+  width: 34%;
+  text-align: justify;
+}
+
+.button-main {
+  text-decoration: none;
+  font-family: 'Montserrat', monospace;
+  font-weight: bold;
+  // margin-left: 30px;
+  width: 10%;
+  height: auto;
+  text-align: center;
+  padding: 1em;
+  border-radius: 28px;
+  transition: 0.2s ease-in-out;
+  margin-right: 6em;
+}
+
+.button-color-white {
+  color: #5200BB;
+  background-color: white;
+}
+
+.button-color-white:hover {
+  box-shadow: 1px 2px 20px rgba(255, 255, 255, 0.459);
+}
+
+.button-color-purple {
+  color: white;
+  background-color: #5200BB;
+}
+
+.button-color-purple:hover {
+  box-shadow: 1px 2px 20px #5200BB;
+}
+
+.description {
+  color: white;
+  font-family: 'Montserrat', monospace;
+  text-decoration: non;
+  text-align: justify;
+  width: 36%;
+  line-height: 24px;
+}
+
+.buttons {
+  margin-top: 4em;
+}
+
+.demo-card {
+  float: right;
+  width: 20%;
+  margin-right: 24em;
+}
